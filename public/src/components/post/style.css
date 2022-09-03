@@ -1,0 +1,75 @@
+section{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fila{
+    background-color: rgb(207, 46, 46);
+    padding:50px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:5px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.foto{
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+.name{
+    max-height: 40px;
+    
+}
+#direct{
+    font-size: 10px;
+}
+
+.post{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.post{
+    width: 400px;
+    height: 400px;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.space{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+}
+.position{
+    margin-left: -5rem;
+}
+
+.debajo{
+    font-size:12px;
+    margin-bottom:-8px;
+    
+}
+.description{
+    color: rgb(17, 16, 16);
+}
